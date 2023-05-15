@@ -1,12 +1,12 @@
 // node-fetch for making HTTP requests
 const fetch = require('node-fetch');
-API_URL = 'https://api-inference.huggingface.co/models/ethzhou/newJooby';
+API_URL = omitted;
 
 const CHAT_CHANNELS = [
-    // '830685694644584469',  // 𝕆𝕗𝕗𝕚𝕔𝕒𝕝 𝕄𝕔ℂ𝕦𝕔𝕜lord 𝕃𝕠𝕦𝕟𝕘𝕖 #jooby-development
-    '901009778023747604',  // 𝕆𝕗𝕗𝕚𝕔𝕒𝕝 𝕄𝕔ℂ𝕦𝕔𝕜lord 𝕃𝕠𝕦𝕟𝕘𝕖 #jooby-development
-    '888262045156405278',  // House of Commons #secretary—jooby-bot-conversing-playground
-    '888294345424384020',  // 1046 Colorado Place, Palo Alto, CA, 94303 #ministry-of-love
+    // GUILD ID,  // SERVER NAME #CHANNEL-NAME
+    omitted,
+    omitted,
+    omitted,
 ];
 
 module.exports = {
