@@ -11,10 +11,7 @@ module.exports = {
     usage: '<imageURL/attachment>',
     cooldown: 5,
     availableInGuilds: [
-        '737849661670555689',  // House of Commons
-        '457724467255181332',  // 𝕆𝕗𝕗𝕚𝕔𝕒𝕝 𝕄𝕔ℂ𝕦𝕔𝕜lord 𝕃𝕠𝕦𝕟𝕘𝕖
-        '695803582343282787',  // Royal Family
-        '821548631081484299',  // popcorn's server
+        omitted
     ],
     async execute(message, args) {
         if (!(message.attachments.size || args.length)) return message.channel.send("no image:(");
